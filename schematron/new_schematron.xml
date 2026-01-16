@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://purl.oclc.org/dsdl/schematron">
+    <pattern>
+        <rule context="cbc:ID">
+            <assert test="string-length(.) > 5">ID must be at least 5 chars</assert>
+        </rule>
+        <rule context="cbc:NewField">
+            <assert test=". != ''">NewField is required</assert>
+        </rule>
+    </pattern>
+</schema>

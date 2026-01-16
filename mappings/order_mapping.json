@@ -1,0 +1,11 @@
+{
+    "order_mapping": {
+        "source": "SAP",
+        "target": "Peppol",
+        "fields": {
+            "order_id": "cbc:ID",
+            "date": "cbc:IssueDate",
+            "total": "cbc:PayableAmount"
+        }
+    }
+}

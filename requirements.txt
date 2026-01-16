@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-community
+streamlit
+requests
+xmldiff
+lxml
+pandas
+openpyxl
