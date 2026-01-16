@@ -24,4 +24,4 @@ gcloud run deploy $SERVICE_NAME \
     --set-env-vars GOOGLE_API_KEY=AIzaSyChofjJiGGIWfLMzuoqDprGYvswMyicL-s
 
 echo "Deployment complete!"
-gcloud run services describe $SERVICE_NAME --platform managed --region $REGION --format 'value(status.url)'
+gcloud run services describe $SERVICE_NAME --project $PROJECT_ID --platform managed --region $REGION --format 'value(status.url)'
